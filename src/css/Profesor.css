@@ -1,0 +1,45 @@
+
+.profesor-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff3cd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.profesor-form {
+    margin-top: 20px;
+}
+
+.profesor-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #856404;
+}
+
+.profesor-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #856404;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+.btn-add-note {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-add-note:hover {
+    background-color: #218838;
+}
